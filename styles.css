@@ -141,14 +141,5 @@ h4{
     padding-top: 100px;
 }
 
-.spark {
-    background-color: #DE4A00;
-    font-family: 'Helvetica', sans-serif;
-    visibility: hidden;
-    position: absolute;
-    width: 8px;
-    height: 10px;
-    border-radius: 30%;
-    box-shadow: 0 0 5px #AB000B;
-}
+
 
