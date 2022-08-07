@@ -84,7 +84,7 @@ body{
 }
 
 .medium2{
-    height: 700px;
+    height: 600px;
 }
 
 .quote{
@@ -139,5 +139,16 @@ h4{
     justify-content: center;
     margin-bottom: auto;
     padding-top: 100px;
+}
+
+.spark {
+    background-color: #DE4A00;
+    font-family: 'Helvetica', sans-serif;
+    visibility: hidden;
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    border-radius: 30%;
+    box-shadow: 0 0 5px #AB000B;
 }
 
