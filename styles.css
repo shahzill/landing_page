@@ -18,6 +18,7 @@
 .rec{
     display: flex;
     padding: 24px;
+    font-size: large;
 }
 
 
@@ -33,12 +34,13 @@
     justify-content: space-evenly;
 }
 .mainbody-text{
-    text-decoration: none;
+    
     display: flexbox;
     flex-direction: row;
     color: white;
+    margin-top: 40px;
     margin-right: auto;
-    padding: 60px;
+    padding: 100px;
 }
 
 
@@ -47,5 +49,95 @@
     height: 1000px;
     width: auto;
     background-image: url("images/1669463.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
 }
+
+body{
+    background-color: black;
+}
+
+.header2{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 50px;
+    font-size: xx-large;
+}
+
+.images{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px;
+}
+
+.medium{
+    
+    background-image: url("images/bg4.jpeg");
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+}
+
+.medium2{
+    height: 700px;
+}
+
+.quote{
+    text-shadow: 0 0 5px #fff, 0 0 10px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: xx-large;
+}
+
+.author{
+    text-shadow: 0 0 5px #fff, 0 0 10px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+
+
+.box{
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    display: flex;
+    background-color:rgb(255, 115, 0);
+    border-radius: 10px;
+    
+}
+
+.text{
+    display: flexbox;
+    flex-direction: row; 
+    padding: 16px;
+}
+
+.button2{
+    background-color: transparent;
+    display: flex;
+    height: min-content;
+    margin: auto;
+    padding: 10px;
+
+}
+
+h4{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: auto;
+    padding-top: 100px;
+}
+
