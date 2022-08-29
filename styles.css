@@ -141,5 +141,58 @@ h4{
     padding-top: 100px;
 }
 
+@media only screen and (min-width:200px){
+    .images{
+        flex-direction: column;
+        margin: 50px 0;
+        justify-content: center;
+        
+    }
 
+    .medium{
+    
+        background-image: url("images/bg4.jpeg");
+        background-repeat: no-repeat;
+        height: 1200px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width:800px){
+    .images{
+        justify-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .medium{
+    
+        background-image: url("images/bg4.jpeg");
+        background-repeat: no-repeat;
+        height: 1200px;
+        background-size: cover;
+    }
+}
+
+
+@media only screen and (min-width:1029px){
+
+    .images{
+        justify-content: center;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .medium{
+    
+        background-image: url("images/bg4.jpeg");
+        background-repeat: no-repeat;
+        height: 950px;
+        background-size: cover;
+    }
+}    
 
